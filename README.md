@@ -56,8 +56,13 @@ Bingyang Xu: If this task means to just display the default value1 and value2 on
 passing through the key1 and key2 values into the following
 a. customerid
 b. customeremail
-Bingyang Xu: Since I did not get the SDK of ```impact.com```, I cannot make the request to ```utt.impactcdn.com```, but this should carry value which either get from the url or get from the HTML element value.
-![GTM_Tags_PassingValuesToJS](./assets/screenshot/GTM_Tags_PassingValuesToJS.jpg)
+~~Bingyang Xu: Since I did not get the SDK of ```impact.com```, I cannot make the request to ```utt.impactcdn.com```, but this should carry value which either get from the url or get from the HTML element value.~~
+[10/22 Update]
+Bingyang Xu:  After some troubleshooting, I am not sure it's one part of the task or not. The code in the assessment PDF is actually not in one line. Or maybe when it convert to PDF format, the script automatically break lines. 
+**After deleting two break lines.** The script can fire and make request to ```impact.com```.But it did not went through only get ```403 forbidden``` error response, which I think it's expected due to I do not have any access credential nor whitelisted this domain from ```impact.com``` for the script ID.
+
+![GTM_Tags_PassingValuesToJS_2](./assets/screenshot/GTM_Tags_PassingValuesToJS_2.jpg)
+![Github_Pages_RequestToImpact](./assets/screenshot/Github_Pages_RequestToImpact.jpg)
 [:heavy_check_mark:] Share link to Github page + screenshots of google tag manager configurations to *charles.pham@impact.com*
 
 ### Thanks to
