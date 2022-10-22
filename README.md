@@ -1,10 +1,9 @@
-:
 # Solutions Architect Technical Assessment
 Click here to visit the deployed assessment page:
-[https://github.xubingyang.com/impact/](https://github.xubingyang.com/impact/)
+[https://github.xubingyang.com/impact/](https://github.xubingyang.com/impact/)  
 Try by:
-[https://github.xubingyang.com/impact/?key1=xubingyang&key2=hi@xubingyang.com](https://github.xubingyang.com/impact/?key1=xubingyang&key2=hi@xubingyang.com)
-[https://github.xubingyang.com/impact/?key1=john&key2=john@example.com](https://github.xubingyang.com/impact/?key1=john&key2=john@example.com)
+[https://github.xubingyang.com/impact/?key1=xubingyang&key2=hi@xubingyang.com](https://github.xubingyang.com/impact/?key1=xubingyang&key2=hi@xubingyang.com)  
+[https://github.xubingyang.com/impact/?key1=john&key2=john@example.com](https://github.xubingyang.com/impact/?key1=john&key2=john@example.com)  
 
 ### Assessment 1
 [:heavy_check_mark:] Create a free test page on Github - [https://pages.github.com/](https://pages.github.com/)
@@ -58,10 +57,10 @@ Bingyang Xu: If this task means to just display the default value1 and value2 on
 [:heavy_check_mark:] Building upon logic implemented in Assessment 1, deploy the Javascript code below,
 passing through the key1 and key2 values into the following
 a. customerid
-b. customeremail
-~~Bingyang Xu: Since I did not get the SDK of ```impact.com```, I cannot make the request to ```utt.impactcdn.com```, but this should carry value which either get from the url or get from the HTML element value.~~
-[10/22 Update]
-Bingyang Xu:  After some troubleshooting, I am not sure it's one part of the task or not. The code in the assessment PDF is actually not in one line. Or maybe when it convert to PDF format, the script automatically break lines. 
+b. customeremail  
+~~Bingyang Xu: Since I did not get the SDK of ```impact.com```, I cannot make the request to ```utt.impactcdn.com```, but this should carry value which either get from the url or get from the HTML element value.~~  
+[10/22 Update]  
+Bingyang Xu:  After some troubleshooting, I am not sure it's one part of the task or not. The code in the assessment PDF is actually not in one line. Or maybe when it convert to PDF format, the script automatically break lines.   
 **After deleting two break lines.** The script can fire and make request to ```impact.com```.But it did not went through only get ```403 forbidden``` error response, which I think it's expected due to I do not have any access credential nor whitelisted this domain from ```impact.com``` for the script ID.
 
 ![GTM_Tags_PassingValuesToJS_2](./assets/screenshot/GTM_Tags_PassingValuesToJS_2.jpg)
